@@ -1,0 +1,26 @@
+{
+  "name": "test-app-permissions",
+  "title": "my app",
+  "vendor": {
+    "email": "my@email.com",
+    "name": "hello world inc",
+    "url": "http://hello.com"
+  },
+  "version": "0.0.1",
+  "widgets": [
+    {
+      "description": "test widget",
+      "extensionPoint": "ISSUE_BELOW_SUMMARY",
+      "iconPath": "icon.png",
+      "indexPath": "index.html",
+      "key": "test",
+      "name": "test",
+      "permissions": [
+        "READ_ARTICLE",
+        "CREATE_ARTICLE_COMMENT",
+        "READ_REPORT",
+        "UPDATE_NOT_OWN_WORK_ITEM"
+      ]
+    }
+  ]
+}
