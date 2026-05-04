@@ -16,9 +16,9 @@
       "key": "test",
       "name": "test",
       "permissions": [
+        "READ_ISSUE",
         "READ_ARTICLE",
         "CREATE_ARTICLE_COMMENT",
-        "READ_REPORT",
         "UPDATE_NOT_OWN_WORK_ITEM"
       ]
     }
